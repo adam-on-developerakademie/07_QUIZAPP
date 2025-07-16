@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,27 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
 </head>
+
 <body>
-    <button class="btn">Start</button>
-    
+    <div class="myBody">
+
+        <div class="card" style="width: 30rem;">
+            <img src="./assets/img/quiz-time-9163843_1920.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frage Kategorie</h5>
+                <p class="card-text myCardTitle">Text der Frage</p>
+            </div>
+            <div class="vstack gap-3">
+                <button type="button" class="btn btn-outline-primary shadow myButtonAnswer" disabled>Antwort1</button>
+                <button type="button" class="btn btn-outline-primary shadow myButtonAnswer" disabled>Antwort2</button>
+                <button type="button" class="btn btn-outline-primary shadow myButtonAnswer" disabled>Antwort3</button>
+                <button type="button" class="btn btn-outline-primary shadow myButtonAnswer" disabled>Antwort4</button>
+            </div>
+            <div class="card-body cardFooter">
+               <b>1</b> von <b>5</b> Fragen
+                <button type="button" class="btn btn-outline-success shadow myButtonNext">Nächste Frage </button>
+            </div>
+        </div>
 </body>
+
 </html>
