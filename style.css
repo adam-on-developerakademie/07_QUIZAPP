@@ -12,9 +12,10 @@
     width: 100%;
 }
 
-.myCardTitle {
-    min-height: 100px;
+.myQuestion {
+    min-height: 50px;
     text-align: start;
+    background-color: #173de812;
 }
 
 .myButtonAnswer {
