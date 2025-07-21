@@ -1,34 +1,91 @@
-.myBody {
-    height: 100vh;
-    width: 100%;
+.container {
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    background-color: #173CE8;
+    background-color: #007aff !important;
 }
 
-.myCoverImage {
+.quiz-card {
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+
+#questiontext {
+    font-size: 24px;
+}
+
+.question-footer {
+    border-top: 1px solid rgb(0, 0, 0, 0.4);
+    padding-top: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.05);
+}
+
+#nextButton {
+    color: white;
+    height: 80px;
+    width: 260px;
+}
+
+.width-100 {
     width: 100%;
 }
 
-.myQuestion {
-    min-height: 50px;
-    text-align: start;
-    background-color: #173de812;
+.text-center {
+    text-align: center;
 }
 
-.myButtonAnswer {
-    margin-left: 20px;
-    margin-right: 20px;
+#endBody {
+    display: flex;
+    flex-direction: column;
 }
 
-.myButtonNext {
-    
+#startBody {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
-.cardFooter {
+#questBody {
+    padding-bottom: 50px;
+    max-width: 80vw;
+    font-size: 24px;
+    text-align: center;
+}
+
+#endBody {
+    padding-bottom: 50px;
+}
+
+.progress {
+    width: 100%;
+}
+
+.answerBody{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.card-body {
+    padding: 4px !important;
+}
+
+.flagL {
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.flagR {
+    border: 1px solid black;
+    height: 30px;
+    margin-right: 5px;
 }
